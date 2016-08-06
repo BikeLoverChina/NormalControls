@@ -15,6 +15,10 @@
 		182309381D55CDBF009D6DE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182309361D55CDBF009D6DE3 /* LaunchScreen.storyboard */; };
 		182309431D55CDBF009D6DE3 /* NormalControlUseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 182309421D55CDBF009D6DE3 /* NormalControlUseTests.m */; };
 		1823094E1D55CDBF009D6DE3 /* NormalControlUseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1823094D1D55CDBF009D6DE3 /* NormalControlUseUITests.m */; };
+		1823095D1D55CE78009D6DE3 /* DemoOfControlCategoryList.m in Sources */ = {isa = PBXBuildFile; fileRef = 1823095C1D55CE78009D6DE3 /* DemoOfControlCategoryList.m */; };
+		182309701D55D130009D6DE3 /* UIButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1823096F1D55D130009D6DE3 /* UIButtonViewController.m */; };
+		182309791D55ED8F009D6DE3 /* AdapterTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 182309781D55ED8F009D6DE3 /* AdapterTools.m */; };
+		1823097D1D55F4D8009D6DE3 /* UILabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1823097C1D55F4D8009D6DE3 /* UILabelViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,15 @@
 		182309491D55CDBF009D6DE3 /* NormalControlUseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NormalControlUseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1823094D1D55CDBF009D6DE3 /* NormalControlUseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NormalControlUseUITests.m; sourceTree = "<group>"; };
 		1823094F1D55CDBF009D6DE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1823095B1D55CE78009D6DE3 /* DemoOfControlCategoryList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoOfControlCategoryList.h; sourceTree = "<group>"; };
+		1823095C1D55CE78009D6DE3 /* DemoOfControlCategoryList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoOfControlCategoryList.m; sourceTree = "<group>"; };
+		1823096E1D55D130009D6DE3 /* UIButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIButtonViewController.h; sourceTree = "<group>"; };
+		1823096F1D55D130009D6DE3 /* UIButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButtonViewController.m; sourceTree = "<group>"; };
+		182309751D55EAE1009D6DE3 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		182309771D55ED8F009D6DE3 /* AdapterTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdapterTools.h; sourceTree = "<group>"; };
+		182309781D55ED8F009D6DE3 /* AdapterTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdapterTools.m; sourceTree = "<group>"; };
+		1823097B1D55F4D8009D6DE3 /* UILabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UILabelViewController.h; sourceTree = "<group>"; };
+		1823097C1D55F4D8009D6DE3 /* UILabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UILabelViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +94,8 @@
 		1823091C1D55CDBF009D6DE3 = {
 			isa = PBXGroup;
 			children = (
+				182309761D55ED6A009D6DE3 /* Tools */,
+				182309691D55D0F0009D6DE3 /* NormalControlList */,
 				182309271D55CDBF009D6DE3 /* NormalControlUse */,
 				182309411D55CDBF009D6DE3 /* NormalControlUseTests */,
 				1823094C1D55CDBF009D6DE3 /* NormalControlUseUITests */,
@@ -105,6 +120,8 @@
 				1823092C1D55CDBF009D6DE3 /* AppDelegate.m */,
 				1823092E1D55CDBF009D6DE3 /* ViewController.h */,
 				1823092F1D55CDBF009D6DE3 /* ViewController.m */,
+				1823095B1D55CE78009D6DE3 /* DemoOfControlCategoryList.h */,
+				1823095C1D55CE78009D6DE3 /* DemoOfControlCategoryList.m */,
 				182309311D55CDBF009D6DE3 /* Main.storyboard */,
 				182309341D55CDBF009D6DE3 /* Assets.xcassets */,
 				182309361D55CDBF009D6DE3 /* LaunchScreen.storyboard */,
@@ -138,6 +155,52 @@
 				1823094F1D55CDBF009D6DE3 /* Info.plist */,
 			);
 			path = NormalControlUseUITests;
+			sourceTree = "<group>";
+		};
+		182309691D55D0F0009D6DE3 /* NormalControlList */ = {
+			isa = PBXGroup;
+			children = (
+				1823097A1D55F4BB009D6DE3 /* UILabel */,
+				182309741D55EAD5009D6DE3 /* Constants */,
+				1823096D1D55D130009D6DE3 /* Button */,
+			);
+			path = NormalControlList;
+			sourceTree = "<group>";
+		};
+		1823096D1D55D130009D6DE3 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				1823096E1D55D130009D6DE3 /* UIButtonViewController.h */,
+				1823096F1D55D130009D6DE3 /* UIButtonViewController.m */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		182309741D55EAD5009D6DE3 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				182309751D55EAE1009D6DE3 /* Constants.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		182309761D55ED6A009D6DE3 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				182309771D55ED8F009D6DE3 /* AdapterTools.h */,
+				182309781D55ED8F009D6DE3 /* AdapterTools.m */,
+			);
+			name = Tools;
+			path = NormalControlList/Tools;
+			sourceTree = "<group>";
+		};
+		1823097A1D55F4BB009D6DE3 /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				1823097B1D55F4D8009D6DE3 /* UILabelViewController.h */,
+				1823097C1D55F4D8009D6DE3 /* UILabelViewController.m */,
+			);
+			path = UILabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,8 +337,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				182309301D55CDBF009D6DE3 /* ViewController.m in Sources */,
+				182309791D55ED8F009D6DE3 /* AdapterTools.m in Sources */,
 				1823092D1D55CDBF009D6DE3 /* AppDelegate.m in Sources */,
+				182309701D55D130009D6DE3 /* UIButtonViewController.m in Sources */,
 				1823092A1D55CDBF009D6DE3 /* main.m in Sources */,
+				1823095D1D55CE78009D6DE3 /* DemoOfControlCategoryList.m in Sources */,
+				1823097D1D55F4D8009D6DE3 /* UILabelViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,6 +566,7 @@
 				182309541D55CDBF009D6DE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		182309551D55CDBF009D6DE3 /* Build configuration list for PBXNativeTarget "NormalControlUseTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +575,7 @@
 				182309571D55CDBF009D6DE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		182309581D55CDBF009D6DE3 /* Build configuration list for PBXNativeTarget "NormalControlUseUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +584,7 @@
 				1823095A1D55CDBF009D6DE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
