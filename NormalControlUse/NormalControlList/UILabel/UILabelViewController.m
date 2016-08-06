@@ -103,15 +103,17 @@
         CGSize size = CGSizeZero;
         
         // 1.injectDataForLabel: title: fontSize: lineSpacing: width:
-//        size = [[AdapterTools getInstance] injectDataForLabel:_twoLinesLbl title:_twoLinesLbl.text fontSize:UIFontSizeTwenty lineSpacing:UILineSpaceTen width:ScreenSize.width - UIMargin15*2];
+        size = [[AdapterTools getInstance] injectDataForLabel:_twoLinesLbl title:_twoLinesLbl.text fontSize:UIFontSizeTwenty lineSpacing:UILineSpaceTen width:ScreenSize.width - UIMargin15*2];
         
         // 2.injectDataForLabel: title: fontSize: lineSpacing: linesCount: width:
         /*
         size = [[AdapterTools getInstance] injectDataForLabel:_twoLinesLbl title:_twoLinesLbl.text fontSize:UIFontSizeTwenty lineSpacing:UILineSpaceTen linesCount:2 width:ScreenSize.width - UIMargin15*2];
          */
+        /*暂时有问题
         // 3.injectDataForLabel: title: fontSize: lineSpacing: linesCount: width: lineBreakMode:lineBreakMode
-//        _twoLinesLbl.lineBreakMode = NSLineBreakByTruncatingMiddle;
+        _twoLinesLbl.lineBreakMode = NSLineBreakByTruncatingMiddle;
         size = [[AdapterTools getInstance] injectDataForLabel:_twoLinesLbl title:_twoLinesLbl.text fontSize:UIFontSizeTwenty lineSpacing:UILineSpaceTen linesCount:2 width:ScreenSize.width - UIMargin15*2 lineBreakMode:NSLineBreakByTruncatingMiddle];
+         */
         
         _twoLinesLbl.frame = CGRectMake(15, 64+20+50, size.width, size.height);
     }
