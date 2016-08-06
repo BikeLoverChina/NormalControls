@@ -42,7 +42,7 @@
 - (CGSize)injectDataForLabel:(UILabel *)label title:(NSString *)title fontSize:(CGFloat)fontSize lineSpacing:(CGFloat)lineSpacing width:(CGFloat)width;
 - (CGSize)injectDataForLabel:(UILabel *)label title:(NSString *)title fontSize:(CGFloat)fontSize lineSpacing:(CGFloat)lineSpacing linesCount:(CGFloat)linesCount width:(CGFloat)width;
 /*
-// !!!此方法暂时有问题 后期修复!!!!
+// !!! 此方法暂时有问题 后期修复 !!!!
 - (CGSize)injectDataForLabel:(UILabel *)label title:(NSString *)title fontSize:(CGFloat)fontSize lineSpacing:(CGFloat)lineSpacing linesCount:(CGFloat)linesCount width:(CGFloat)width lineBreakMode:(NSLineBreakMode)lineBreakMode;
  */
 
