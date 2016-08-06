@@ -109,7 +109,7 @@
         /*
         size = [[AdapterTools getInstance] injectDataForLabel:_twoLinesLbl title:_twoLinesLbl.text fontSize:UIFontSizeTwenty lineSpacing:UILineSpaceTen linesCount:2 width:ScreenSize.width - UIMargin15*2];
          */
-        /*暂时有问题
+        /*暂时有问题 临时注释
         // 3.injectDataForLabel: title: fontSize: lineSpacing: linesCount: width: lineBreakMode:lineBreakMode
         _twoLinesLbl.lineBreakMode = NSLineBreakByTruncatingMiddle;
         size = [[AdapterTools getInstance] injectDataForLabel:_twoLinesLbl title:_twoLinesLbl.text fontSize:UIFontSizeTwenty lineSpacing:UILineSpaceTen linesCount:2 width:ScreenSize.width - UIMargin15*2 lineBreakMode:NSLineBreakByTruncatingMiddle];
